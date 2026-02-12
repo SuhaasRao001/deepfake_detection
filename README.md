@@ -48,15 +48,33 @@ Backend: FastAPI and Uvicorn.
 
 Frontend: React.js, Chart.js (for confidence visualization), and Vercel.
 
+### Quick Start Guide
+
+#### 1. Backend (API)
+```bash
+cd backend
+python api_wrapper.py
+```
+*Wait for "Model loaded successfully" and "Uvicorn running on http://127.0.0.1:8000".*
+
+#### 2. Frontend (React)
+```bash
+cd frontend
+npm run dev
+```
+*Access the application at http://localhost:5173/*
+
+### Project Structure
+- `backend/`: FastAPI server and AI inference logic.
+- `frontend/`: React application (Vite-based).
+- `requirements.txt`: Python dependencies for the backend.
+
 ### Team Details
 
 Team Leader: Thallapali Suhaas Rao (IT, 3rd Year).
 
-
 Team Member 1: Pramod Kumar Potturu (IT, 3rd Year).
 
-
 Team Member 2: Srikrishna Kasivajhula (IT, 3rd Year).
-
 
 Team Member 3: Thrilochan Chidurala (IT, 3rd Year).
